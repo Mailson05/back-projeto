@@ -20,6 +20,8 @@ public class AutenticacaoController {
 
     @Autowired
     private AuthenticationManager manager;
+
+    @Autowired
     private TokenService tokenService;
 
     @PostMapping
